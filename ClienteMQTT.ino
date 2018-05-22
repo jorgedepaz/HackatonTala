@@ -2,12 +2,12 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
-// Asignacion de id y password de la red a la que nis conectaremos, ademas se agrega la ip del broker dentro de la red
+// Asignación de SSID - PASSWORD de la red inalámbrica y la ip del servidor dentro de la red local.
 const char* ssid = "TalaDeArboles";
 const char* password = "tala1234";
 const char* mqtt_server = "192.168.1.102";
 
-WiFiClient espClient; //se crea una instancia de tipo WiFiClient para trabajar con el wifi del uC
+WiFiClient espClient; //Se crea una instancia de tipo WiFiClient para trabajar con el Wifi del uC
 PubSubClient client(espClient);// El cliente MQTT recibe como parametro el objeto creado anteriormente 
 
 // declaracion de variables para guardar datos de comunicacion
@@ -20,7 +20,7 @@ int value = 0;
 void setup_wifi() {
 
   delay(10);
-  //Impresion en el puerto serial del ssid al que nos conectaremos
+  //Impresion en el puerto serial del SSID al que nos conectaremos.
   Serial.println();
   Serial.print("Conectando a: ");
   Serial.println(ssid);
