@@ -7,6 +7,6 @@ La alarma se envia a travez de la red por medio de un esp8266 con el protocolo m
 
 Los filtros activos se diseñaron con los amplificadores operacionales lm324 y 741.
 
-<a href="https://drive.google.com/file/d/1AOsEYE8CTa3KblfU12V1wqZuaomCWLHy/view?usp=sharing"><img src="https://drive.google.com/file/d/1AOsEYE8CTa3KblfU12V1wqZuaomCWLHy/view?usp=sharing" /></a> https://drive.google.com/file/d/1AOsEYE8CTa3KblfU12V1wqZuaomCWLHy/view?usp=sharing
+Imagen:<a href="https://drive.google.com/file/d/1AOsEYE8CTa3KblfU12V1wqZuaomCWLHy/view?usp=sharing"><img src="https://drive.google.com/file/d/1AOsEYE8CTa3KblfU12V1wqZuaomCWLHy/view?usp=sharing" /></a>
 
 Libreria utilizada en el ESP8266: https://github.com/knolleary/pubsubclient
